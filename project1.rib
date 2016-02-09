@@ -13,7 +13,7 @@ Declare "Bd" "uniform float"
 
 # define the output file:
 
-Display "rosem2_project1.tiff" "file" "rgb" 
+Display "ovals.tiff" "file" "rgb" 
 Format 2500 2500 -1
 
 # define the lighting:
