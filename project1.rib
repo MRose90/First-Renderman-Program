@@ -36,6 +36,6 @@ WorldBegin
 	TransformBegin
 		Translate 0 0 6			# move away from the eye (= gluLookAt)
 		Rotate 90  1. 0. 0.		# rotate so don't see north pole
-		Sphere 3 -3 3 360 		# a full sphere
+		Sphere 3 -3 3 360 		# a full sphere of size 3
 	TransformEnd
 WorldEnd

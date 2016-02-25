@@ -39,13 +39,14 @@ ovals(
 
         color TheColor = Cs;
         	//.9 adds space between the ovals
-	   if( (((up-uc)/Ad)*((up-uc)/Ad)+((vp-vc)/Bd)*((vp-vc)/Bd)) <=.5 )
+	   if( (((up-uc)/Ad)*((up-uc)/Ad)+((vp-vc)/Bd)*((vp-vc)/Bd)) <=.9 )
 		   TheColor = PINK;
 	   else
 		   Oi = PURPLE;
 
 
 	// determine the lighted output color Ci:
+	//based upon how the color interacts with the ambient, diffuse and specular lighting
 
 	Ci =        TheColor * Ka * ambient();
 	Ci = Ci  +  TheColor * Kd * diffuse(Nf);
